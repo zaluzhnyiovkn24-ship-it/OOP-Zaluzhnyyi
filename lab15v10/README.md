@@ -22,4 +22,4 @@
 
 ## Результат запуску
 
-<!-- screenshot -->
+![Inventory queries and timings](image.png)
