@@ -1,0 +1,10 @@
+var queue = new Queue<string>();
+queue.Enqueue("Order 101");
+queue.Enqueue("Order 102");
+Console.WriteLine($"Before removal: count={queue.Count}, first={queue.Peek()}");
+string[] snapshot = queue.ToArray();
+snapshot[0] = "Changed in snapshot";
+Console.WriteLine($"Changed snapshot: {snapshot[0]}");
+Console.WriteLine($"Queue still starts with: {queue.Peek()}");
+Console.WriteLine($"Removed: {queue.Dequeue()}, then {queue.Dequeue()}");
+Console.WriteLine($"TryDequeue on empty: {queue.TryDequeue(out _)}");
