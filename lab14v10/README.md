@@ -22,4 +22,4 @@ HashSet реєструє унікальні типи подій. Queue збер�
 
 ## Результат запуску
 
-<!-- screenshot -->
+![FIFO processing and LIFO history](image.png)
