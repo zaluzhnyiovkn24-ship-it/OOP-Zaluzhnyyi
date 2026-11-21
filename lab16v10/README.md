@@ -22,4 +22,4 @@
 
 ## Результат запуску
 
-<!-- screenshot -->
+![Product options, pages and feature lookup](image.png)
